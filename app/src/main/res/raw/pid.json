@@ -1,0 +1,58 @@
+[
+  {
+    "category": "Engine",
+    "name": "Engine RPM",
+    "pid": "010C",
+    "formula": "(A * 256 + B) / 4",
+    "unit": "rpm"
+  },
+  {
+    "category": "Engine",
+    "name": "Vehicle Speed",
+    "pid": "010D",
+    "formula": "A",
+    "unit": "km/h"
+  },
+  {
+    "category": "Engine",
+    "name": "Coolant Temperature",
+    "pid": "0105",
+    "formula": "A - 40",
+    "unit": "°C"
+  },
+  {
+    "category": "Engine",
+    "name": "Intake Air Temperature",
+    "pid": "010F",
+    "formula": "A - 40",
+    "unit": "°C"
+  },
+  {
+    "category": "Engine",
+    "name": "Throttle Position",
+    "pid": "0111",
+    "formula": "A * 100 / 255",
+    "unit": "%"
+  },
+  {
+    "category": "Engine",
+    "name": "Engine Load",
+    "pid": "0104",
+    "formula": "A * 100 / 255",
+    "unit": "%"
+  },
+  {
+    "category": "Battery",
+    "name": "Battery Voltage",
+    "pid": "2101",
+    "formula": "(A * 256 + B) / 1000",
+    "unit": "V"
+  },
+  {
+    "category": "Brake",
+    "name": "Brake Pedal Position",
+    "pid": "2201",
+    "formula": "A * 100 / 255",
+    "unit": "%"
+  }
+]
